@@ -18,12 +18,10 @@ NoConn ~ 9350 1750
 NoConn ~ 9350 1650
 NoConn ~ 10750 1650
 NoConn ~ 10750 1550
-Text GLabel 10750 2250 2    50   Input ~ 0
+Text GLabel 10750 1850 2    50   Input ~ 0
 row3
 NoConn ~ 10750 1750
-NoConn ~ 10150 2950
-NoConn ~ 10250 2950
-Text GLabel 9350 2450 0    50   Input ~ 0
+Text GLabel 9850 2950 0    50   Input ~ 0
 row8
 $Comp
 L keebio:Elite-C U1
@@ -36,29 +34,27 @@ F 3 "" V 11100 -500 60  0001 C CNN
 	1    10050 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 9350 2350 0    50   Input ~ 0
+Text GLabel 9350 2150 0    50   Input ~ 0
 col6
 Text GLabel 9350 2250 0    50   Input ~ 0
 col5
-Text GLabel 10750 2150 2    50   Input ~ 0
+Text GLabel 10750 2350 2    50   Input ~ 0
 col4
-Text GLabel 10750 2050 2    50   Input ~ 0
-col3
-Text GLabel 10750 1950 2    50   Input ~ 0
+Text GLabel 10750 2150 2    50   Input ~ 0
 col2
-Text GLabel 10750 1850 2    50   Input ~ 0
+Text GLabel 10750 2050 2    50   Input ~ 0
 col1
 Text GLabel 10750 1450 2    50   Input ~ 0
 col0
-Text GLabel 9350 1850 0    50   Input ~ 0
+Text GLabel 10050 3250 0    50   Input ~ 0
 row7
-Text GLabel 9350 1950 0    50   Input ~ 0
+Text GLabel 9950 3100 0    50   Input ~ 0
 row6
-Text GLabel 9350 2050 0    50   Input ~ 0
+Text GLabel 10250 3550 0    50   Input ~ 0
 row5
-Text GLabel 9350 2150 0    50   Input ~ 0
+Text GLabel 10150 3400 0    50   Input ~ 0
 row4
-Text GLabel 10750 2350 2    50   Input ~ 0
+Text GLabel 10750 1950 2    50   Input ~ 0
 row2
 Text GLabel 9350 1550 0    50   Input ~ 0
 row1
@@ -2153,11 +2149,11 @@ Text GLabel 8400 550  0    50   Input ~ 0
 col7
 Text GLabel 9350 2550 0    50   Input ~ 0
 row9
-Text GLabel 10050 3250 0    50   Input ~ 0
+Text GLabel 9350 2050 0    50   Input ~ 0
 col7
-Text GLabel 9850 2950 0    50   Input ~ 0
+Text GLabel 9350 2450 0    50   Input ~ 0
 row10
-Text GLabel 9950 3100 0    50   Input ~ 0
+Text GLabel 9350 2350 0    50   Input ~ 0
 row11
 Wire Wire Line
 	9950 3100 9950 2950
@@ -2210,8 +2206,16 @@ Text GLabel 800  7400 0    50   Input ~ 0
 row10
 Text GLabel 800  7500 0    50   Input ~ 0
 row11
-NoConn ~ 10750 2550
 Wire Wire Line
 	10050 2950 10050 3250
+Text GLabel 10750 2250 2    50   Input ~ 0
+col3
+Wire Wire Line
+	10150 3400 10150 2950
+Wire Wire Line
+	10250 3550 10250 2950
+NoConn ~ 10750 2550
 NoConn ~ 10750 2450
+NoConn ~ 9350 1850
+NoConn ~ 9350 1950
 $EndSCHEMATC
