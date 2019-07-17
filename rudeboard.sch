@@ -2186,20 +2186,10 @@ Wire Wire Line
 	9200 1850 9200 1950
 Wire Wire Line
 	9200 1600 9200 1650
-Wire Wire Line
-	10600 2550 11150 2550
-Text Label 11150 2550 2    50   ~ 0
-MISO
-Wire Wire Line
-	10600 2450 11150 2450
 Text Label 11150 2450 2    50   ~ 0
 MOSI
-Wire Wire Line
-	10600 2350 11150 2350
 Text Label 11150 2350 2    50   ~ 0
 SCK
-Wire Wire Line
-	10600 2250 11150 2250
 Text Label 11150 2250 2    50   ~ 0
 SS
 Wire Wire Line
@@ -2509,16 +2499,12 @@ Wire Notes Line
 Wire Notes Line
 	8500 5850 11200 5850
 Wire Notes Line
-	11200 5850 11200 1350
-Wire Notes Line
 	8500 1350 11200 1350
 Text Notes 8500 1300 0    50   ~ 0
 MCU
 Connection ~ 9900 1950
 Wire Wire Line
 	10600 2650 11150 2650
-Wire Wire Line
-	10600 2750 11150 2750
 Wire Wire Line
 	10600 2850 11150 2850
 Wire Wire Line
@@ -2533,10 +2519,6 @@ Wire Wire Line
 	10600 4150 11150 4150
 Wire Wire Line
 	10600 4050 11150 4050
-Wire Wire Line
-	10600 3450 11150 3450
-Wire Wire Line
-	10600 3550 11150 3550
 Wire Wire Line
 	10600 3750 11150 3750
 Wire Wire Line
@@ -2555,21 +2537,15 @@ Wire Wire Line
 	10600 5050 11150 5050
 Wire Wire Line
 	10600 5150 11150 5150
-Text Label 11150 2650 2    50   ~ 0
-col0
-Text Label 11150 2750 2    50   ~ 0
-col1
-Text Label 11150 2850 2    50   ~ 0
-col2
-Text Label 11150 2950 2    50   ~ 0
+Text Label 11150 5150 2    50   ~ 0
 col3
-Text Label 11150 3150 2    50   ~ 0
-col4
 Text Label 11150 3250 2    50   ~ 0
+col4
+Text Label 10850 4450 2    50   ~ 0
 col5
-Text Label 11150 3450 2    50   ~ 0
+Text Label 11150 3150 2    50   ~ 0
 col6
-Text Label 11150 3550 2    50   ~ 0
+Text Label 11150 2850 2    50   ~ 0
 col7
 Text Label 11150 3650 2    50   ~ 0
 col8
@@ -2579,23 +2555,17 @@ Text Label 11150 3850 2    50   ~ 0
 col10
 Text Label 11150 3950 2    50   ~ 0
 col11
-Text Label 11150 4050 2    50   ~ 0
+Text Label 11150 3550 2    50   ~ 0
 col12
-Text Label 11150 4150 2    50   ~ 0
-col13
 Text Label 11150 4650 2    50   ~ 0
-col14
-Text Label 11150 4750 2    50   ~ 0
 row0
-Text Label 11150 4850 2    50   ~ 0
-row1
-Text Label 11150 4950 2    50   ~ 0
+Text Label 11150 2750 2    50   ~ 0
 row2
-Text Label 11150 5050 2    50   ~ 0
+Text Label 11150 2650 2    50   ~ 0
 row3
-Text Label 11150 5150 2    50   ~ 0
+Text Label 11150 4050 2    50   ~ 0
 row4
-Text Label 10850 4450 2    50   ~ 0
+Text Label 11150 4150 2    50   ~ 0
 row5
 Wire Wire Line
 	10600 4450 10850 4450
@@ -2610,4 +2580,32 @@ F 3 "" H 9200 1600 50  0001 C CNN
 	1    9200 1600
 	1    0    0    -1  
 $EndComp
+Text Label 11150 4850 2    50   ~ 0
+col0
+Text Label 11150 4950 2    50   ~ 0
+col1
+Text Label 11150 5050 2    50   ~ 0
+col2
+Wire Wire Line
+	10600 2750 11150 2750
+Text Label 11150 2950 2    50   ~ 0
+col14
+Text Label 11150 3450 2    50   ~ 0
+col13
+Text Label 11150 4750 2    50   ~ 0
+row1
+Text Label 11150 2550 2    50   ~ 0
+MISO
+Wire Wire Line
+	10600 2550 11150 2550
+Wire Wire Line
+	10600 2450 11150 2450
+Wire Wire Line
+	10600 2350 11150 2350
+Wire Wire Line
+	10600 2250 11150 2250
+Wire Wire Line
+	10600 3450 11150 3450
+Wire Wire Line
+	10600 3550 11150 3550
 $EndSCHEMATC
